@@ -52,7 +52,7 @@ public class homepage {
 			Screenshot.takescreenshot(driver,s2);
 			
 			String s= CurrencyConverter.convertedvalue(driver).getText();
-			s1=s1+s+"\n";
+			s1=s1+data+" "+s+"\n";
 			
 			
 		}
